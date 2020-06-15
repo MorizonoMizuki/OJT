@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 
-<div>
+<main>
 
-</div>
+
+</main>
 
 <?php get_footer();?>
