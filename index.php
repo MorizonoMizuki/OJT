@@ -24,9 +24,9 @@
                         
                     <p><?php the_time("Y/m/d/");?></p>
                     <p><?php the_excerpt(); ?></p>
-                    <p class="link">
+                    <div class="link">
                         <a href="<?php the_permalink(); ?>" class="read-more">Read More</a>
-                    </p>
+                    </div>
                         
             </li>
                     
