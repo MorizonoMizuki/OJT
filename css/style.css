@@ -152,3 +152,66 @@ footer {
     margin-top: 58px;
     margin-left: 400px;
 }
+
+
+/* レスポンシブデザイン〜767px */
+/* sp幅100% */
+
+.container{
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.articles-title{
+    margin-top: 31px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    height: 40px;
+    font-family: "Yu Gothic bold"
+}
+
+.articles{
+    margin-top: 20px;
+    padding-right: 21px;
+    margin-left: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 1057px;
+    height: 975.28px;
+}
+
+.article{
+    width: 320px;
+    height: 402px;
+    margin-right: 32px;
+    margin-bottom: 64px;
+}
+
+.article p{
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 30px;
+    font-size: 16px;
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
+}
+
+.link{
+    text-align: right;
+    padding-bottom: 30px;
+    margin-top: 65px;
+}
+
+.read-more{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.attachment-thumbnail size-thumbnail wp-post-image{
+    width: 320px;
+    height: 206px;
+}
+
