@@ -23,6 +23,7 @@
   <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="" class="imglogo">
   <img src="<?php echo get_template_directory_uri(); ?>/img/visual_1_pc.png" alt=""  class="imgmain">
   <img src="<?php echo get_template_directory_uri(); ?>/img/visual_text_pc.png" alt=""  class="imgcharset">
+  <img src="<?php echo get_template_directory_uri(); ?>/img/visual_text_sp/png" alt="" class="imgcharset_sp">
 
 
 <div class="explanation">
