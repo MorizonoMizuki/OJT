@@ -9,21 +9,21 @@ html {
     width: 1152px;
     margin: 0 auto;
 }
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
    html {
        width: 100%;
    }
-}
+} */
 
 header {
     width: 100%;
     height: 600px;
 }
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
     header {
         width: 100%;
     }
-}
+} */
 
 /* ヘッダーメニュー */
 .nav{
@@ -48,11 +48,11 @@ header {
     color: black; 
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
     .nav {
         display: none;
     }
-}
+} */
 
 /* ヘッダー画像 z-indexで調整*/
 /* メイン画像 */
@@ -63,7 +63,7 @@ header {
     width: 1024px;
     height: 448px;
 }
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
     .imgmain {
         margin-top: 277px;
         margin-left: 0;
@@ -72,7 +72,7 @@ header {
         width: 100%;
         height: 540px;
     }
-}
+} */
 
 /* 丸ロゴ */
 .imglogo {
@@ -83,14 +83,14 @@ header {
     margin-top: -115px;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
     .imglogo {
         width: 216px;
         height: 216px;
         margin-top: 30px;
         margin-left: 265px; 
     }
-}
+} */
 
 /* 文字画像 境界線であわせてます*/
 .imgcharset {
@@ -101,23 +101,23 @@ header {
     margin-top: 284px;
     margin-left: 736px;
 }
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
     .imgcharset {
         display: none;
     }
-}
+} */
 
 
 /* sp用の文字画像 */
 .imgcharset_sp {
     display: none;
 }
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
     .imgcharset_sp {
         position: absolute;
         z-index: 1;
     }
-}
+} */
 
 /* ヘッダー説明 */
 .explanation {
@@ -125,14 +125,14 @@ header {
     font-size: 24px; 
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
     .explanation {
         text-align: center;
         margin-top: 50px;
         font-size: 32px; 
     }
 
-}
+} */
 
 
 /* フッター */
