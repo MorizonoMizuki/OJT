@@ -171,6 +171,19 @@ header {
     font-weight: bold;
 }
 
+@media screen and (max-width: 767px) {
+    .articles-title{
+        display: flex;
+        justify-content: center;
+        font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+        font-weight: bold;
+        font-size: 60px;
+        margin-bottom: 20px;
+        width: 750px;
+    }
+
+}
+
 .articles{
     margin-top: 16px;
     padding-right: 21px;
@@ -207,7 +220,7 @@ header {
 
 @media screen and (max-width: 767px) {
     .article{
-        width: 630.73px;
+        width: 630px;
         height: 792.91px;
         margin-bottom: 30px;
         position: relative;
