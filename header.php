@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/style.css">
     <title>American Village</title>
 
-  <!-- <?php wp_head();?> -->
+  <?php wp_head();?>
 </head>
 
 <body>
