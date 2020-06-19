@@ -23,7 +23,6 @@ header {
 @media screen and (max-width: 767px) {
     header {
         width: 100%;
-        margin-bottom: 400px;
     }
 }
 
@@ -67,13 +66,24 @@ header {
 }
 @media screen and (max-width: 767px) {
     .imgmain-div {
-        width: 100%;
+        width: 100vw;
     }
     .imgmain {
         margin-top: 277px;
         margin-left: 0;
         position: relative;
+        width: 100vw;
+        height: auto;
     }
+}
+
+/* パソコンで見たときは"pc"のclassがついた画像が表示される */
+.pc { display: block !important; }
+.sp { display: none !important; }
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+@media only screen and (max-width: 767px) {
+.pc { display: none !important; }
+.sp { display: block !important; }
 }
 
 /* 丸ロゴ */
@@ -127,6 +137,7 @@ header {
         display: block;
         position: absolute;
         width: 60%;
+        height: auto;
         top: 330px;
         left: 35px;
         /* transform: rotate(15deg); */
@@ -145,7 +156,8 @@ header {
     .explanation {
         text-align: center;
         line-height: 3rem;
-        margin-top: 19px;
+        margin-top: 50px;
+        margin-bottom: 50px;
         font-size: 32px; 
     }
     .br::before {
@@ -155,10 +167,6 @@ header {
 }
 
 /* ブログ記事部分 */
-.container{
-    width: 1152px;
-    margin: 0 auto;
-}
 
 .articles-title{
     margin-top: 33px;
@@ -177,9 +185,10 @@ header {
         justify-content: center;
         font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
         font-weight: bold;
-        font-size: 60px;
-        margin-bottom: 20px;
-        width: 750px;
+        font-size: 40px;
+        margin: initial;
+        padding-top: 45vw;
+        width: 100vw;
     }
 
 }
@@ -197,12 +206,14 @@ header {
 
 @media screen and (max-width: 767px) {
     .articles{
+        margin: initial;
+        padding: initial;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 630.73px;
-        height: 4969.98px;
-    }
+        width: 100vw;
+        height: 4970px;
+    }  
 
 }
 
@@ -220,8 +231,9 @@ header {
 
 @media screen and (max-width: 767px) {
     .article{
-        width: 630px;
-        height: 792.91px;
+        margin-right: initial;
+        width: 90vw;
+        height: 793px;
         margin-bottom: 30px;
         position: relative;
     }
@@ -301,8 +313,8 @@ header {
 
 @media screen and (max-width: 767px) {
     .article img{
-        width: 630px;
-        height: 400px;
+        width: 90vw;
+        height: auto;
     }
 
 }
@@ -334,12 +346,8 @@ footer {
 
 @media screen and (max-width: 767px) {
     .middle {
-        width: 100%;
-        display: block;
-        text-align: center;
-        font-size: 24px;
-        margin-left: 0;
-        margin-top: 50px;   
-        letter-spacing: 0.01rem;
+        margin-left: initial;
+        font-size: 20px;
+        /* letter-spacing: 0.1rem; */
     }
 }

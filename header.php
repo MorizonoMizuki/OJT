@@ -23,7 +23,8 @@
   <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="" class="imglogo">
 </div>
 <div class="imgmain-div">
-  <img src="<?php echo get_template_directory_uri(); ?>/img/visual_1_pc.png" alt=""  class="imgmain">
+  <img src="<?php echo get_template_directory_uri(); ?>/img/visual_1_pc.png" alt=""  class="imgmain pc">
+  <img src="<?php echo get_template_directory_uri(); ?>/img/visual_1_sp.png" alt=""  class="imgmain sp">
 </div>
 <div class="imgcarset-div">
   <img src="<?php echo get_template_directory_uri(); ?>/img/visual_text_pc.png" alt=""  class="imgcharset">
