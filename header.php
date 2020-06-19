@@ -13,12 +13,20 @@
 
 <body>
 <header>
-<ul class="nav">
-  <li><a href="#">Menu01</a></li>
-  <li><a href="#">Menu02</a></li>
-  <li><a href="#">Menu03</a></li>
-  <li><a href="#">Menu04</a></li>
-</ul>
+
+<div class="nav">
+  
+  <nav>
+    <?php wp_nav_menu( array(
+            'theme_location'=>'mainmenu', 
+            'container'     =>'', 
+            'menu_class'    =>'',
+            'items_wrap'    =>'<ul id="main-nav">%3$s</ul>'));
+    ?>
+  </nav>
+
+</div>
+
 <div class="imglogo-div">
   <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="" class="imglogo">
 </div>
