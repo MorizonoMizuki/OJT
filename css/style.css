@@ -333,12 +333,7 @@ footer {
     footer {
         width: 100%;
     }
-    .middle {
-        width: 100%;
-        text-align: center;
-    }
 }
-
 
 /* フッター文字 */
 .middle {
@@ -355,7 +350,4 @@ footer {
         font-size: 20px;
         /* letter-spacing: 0.1rem; */
     }
-
-    
-
 }
