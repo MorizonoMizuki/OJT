@@ -65,6 +65,7 @@ header {
     width: 1024px;
     height: 448px;
 }
+
 @media screen and (max-width: 767px) {
     .imgmain-div {
         width: 100%;
@@ -105,10 +106,9 @@ header {
     z-index: 2;
     width: 401px;
     height: 202px;
-    /* margin-top: 284px;
-    margin-left: 736px;
-     */
-     top: 0;
+    margin-top: -165px;
+     margin-right: 178px;
+     top: 1;
      right: 0;
 }
 @media screen and (max-width: 767px) {
@@ -140,7 +140,7 @@ header {
 
 /* ヘッダー説明 */
 .explanation {
-    margin-top: -17px;
+    margin-top: 30px;
     font-size: 24px; 
 }
 
