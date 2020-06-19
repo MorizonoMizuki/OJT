@@ -56,7 +56,7 @@ header {
     }
 }
 
-/* ヘッダー画像 z-indexで調整*/
+/* ヘッダー画像 z-indexで調整 */
 /* メイン画像 */
 .imgmain {
     position: absolute;
@@ -101,12 +101,15 @@ header {
 
 /* 文字画像 境界線であわせてます*/
 .imgcharset {
-    position: relative;
+    position: absolute;
     z-index: 2;
     width: 401px;
     height: 202px;
-    margin-top: 284px;
+    /* margin-top: 284px;
     margin-left: 736px;
+     */
+     top: 0;
+     right: 0;
 }
 @media screen and (max-width: 767px) {
     .imgcharset {

@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/style.css">
     <title>American Village</title>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+
   <?php wp_head();?>
 </head>
 
@@ -23,7 +25,7 @@
   <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="" class="imglogo">
 </div>
 <div class="imgmain-div">
-  <img src="<?php echo get_template_directory_uri(); ?>/img/visual_1_pc.png" alt=""  class="imgmain">
+<?php echo do_shortcode('[smartslider3 slider="2"]');?>
 </div>
 <div class="imgcarset-div">
   <img src="<?php echo get_template_directory_uri(); ?>/img/visual_text_pc.png" alt=""  class="imgcharset">
